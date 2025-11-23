@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 An online IDE with secure login functionality that allows users to run code, generate new code, refactor existing code, and share it with anyone.
 
 ![Homepage](Images/Homepage.png)
@@ -287,3 +288,6 @@ npm run preview
 ## License
 
 You can use this under the MIT License. See [LICENSE](LICENSE) for more details.
+=======
+# React
+>>>>>>> 4c370349b42a9ab38de7dff6daf4edeceb0f0def
