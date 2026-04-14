@@ -10,7 +10,7 @@ const logsSchema = new mongoose.Schema({
 		required: true,
 	},
 	lastLogin: {
-		type: Date,
+		type: Date, 
 		default: null,
 	},
 	createdDate: {
