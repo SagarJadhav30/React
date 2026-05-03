@@ -12,7 +12,7 @@ const ThemeProvider = ({ children }) => {
     return window.matchMedia("(prefers-color-scheme: dark)").matches;
   });
 
-  const toggleTheme = () => {
+  const toggleTheme = () => { 
     setIsDarkMode((prev) => {
       const newMode = !prev;
       localStorage.setItem(LOCAL_STORAGE_THEME_KEY, newMode ? "dark" : "light");
