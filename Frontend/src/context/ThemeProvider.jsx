@@ -16,7 +16,7 @@ const ThemeProvider = ({ children }) => {
     setIsDarkMode((prev) => {
       const newMode = !prev;
       localStorage.setItem(LOCAL_STORAGE_THEME_KEY, newMode ? "dark" : "light");
-      return newMode;
+      return newMode; 
     });
   };
 
