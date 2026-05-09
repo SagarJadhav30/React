@@ -1240,7 +1240,7 @@ If the code is already correct and well-formatted, simply return the original co
 refactor_code_prompt_user = """
 Refactor the following code written in {language}.
 
-Problem statement:
+Problem statement: 
 
 {problem_description}
 
