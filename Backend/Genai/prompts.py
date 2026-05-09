@@ -1241,7 +1241,7 @@ refactor_code_prompt_user = """
 Refactor the following code written in {language}.
 
 Problem statement: 
-
+ 
 {problem_description}
 
 ```
