@@ -612,7 +612,7 @@ def htmlcssjs_refactor():
 
             js_content_refactored = (
                 js_content_refactored.group(1) if js_content_refactored else js_content
-            )
+            ) 
  
             return jsonify({"js": js_content_refactored})
 
