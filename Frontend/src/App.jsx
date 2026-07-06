@@ -7,7 +7,7 @@ import { RECAPTCHA_SITE_KEY } from "./utils/constants";
 const App = () => {
   return (
     <GoogleReCaptchaProvider reCaptchaKey={RECAPTCHA_SITE_KEY}>
-      <ThemeProvider>
+      <ThemeProvider> 
         <Router>
           <ThemeContext.Consumer>
             {({ isDarkMode, toggleTheme }) => (
