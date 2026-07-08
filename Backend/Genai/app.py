@@ -11,7 +11,7 @@ from flask import (
     request,
     stream_with_context,
 )
-from flask_cors import CORS
+from flask_cors import CORS 
 from google import genai
 from google.genai import types
 from prompts import *
